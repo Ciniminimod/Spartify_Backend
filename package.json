@@ -1,0 +1,32 @@
+{
+  "name": "spartify-backend",
+  "version": "1.0.0",
+  "description": "Back end for Spartify",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/run-tests.js",
+    "start": "nodemon server.js",
+    "mongo": "start cmd /K mongod",
+    "start-mongo": "start cmd /K mongod | nodemon server.js",
+    "mongo-start": "start cmd /K mongod | nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.15.0",
+    "chalk": "~1.1.3",
+    "express": "~4.13.4",
+    "lodash": "~4.11.1",
+    "mongodb": "~2.1.16"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ciniminimod/Spartify-Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ciniminimod/Spartify-Backend/issues"
+  },
+  "homepage": "https://github.com/Ciniminimod/Spartify-Backend#readme"
+}
